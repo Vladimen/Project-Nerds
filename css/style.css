@@ -392,11 +392,32 @@ border: none;
   background-color: var(--basic-light-grey);
 }
 
+.list-net-filter {
+  border:none;
+}
+
+.list-net-filter ul {
+  list-style: none;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
 .list-net-filter legend {
   font-size: 18px;
 line-height: 30px;
 text-transform: uppercase;
 font-weight: bold;
+}
+
+.peculiarities-list-filter {
+  border:none;
+}
+
+.peculiarities-list-filter ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-bottom: 20px;
 }
 
 .peculiarities-list-filter legend {
@@ -486,7 +507,6 @@ background-color: #DFDFDF;
 }
 
 .filter {
-  outline: 3px solid blue;
   grid-row: 1/-1;
 }
 
