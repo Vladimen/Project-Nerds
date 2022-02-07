@@ -22,7 +22,7 @@
         <ul class="site-nav">
           <li><a href="blank.html">Студия</a></li>
           <li><a href="blank.html">Клиенты</a></li>
-          <li><a href="catalog.html">Магазин</a></li>
+          <li class="shop"><a href="catalog.html">Магазин</a></li>
           <li><a href="blank.html">Контакты</a></li>
         </ul>
           <a class="basket" href="blank.html">Корзина</a>
@@ -36,11 +36,13 @@
           <form class="filter-form" action="https://echo.htmlacademy.ru" method="get">
             <fieldset class="slider-filter">
               <legend>Стоимость:</legend>
-              <input class="price-slider-filter" type="range" id="price" min="0" max="15000">
-              <p>
+              <div class="price-slider-filter">
+                <input type="range" id="price" min="0" max="15000">
+              </div>
+              <div class="slider-price">
                 <label>От <input class="slider-price-min" type="text" name="price" value="0"></label>
                 <label>До <input class="slider-price-max" type="text" name="price" value="150000"></label>
-              </p>
+              </div>
            </fieldset>
 
             <fieldset class="list-net-filter">
@@ -110,52 +112,100 @@
           <h2>Список шаблонов</h2>
           <ul class="list-sample">
             <li class="item-sample">
-              <a href="blank.html">
+                <div class="sample-header">
+                  <svg>
+                    <circle r="8" cx="8%" cy="13%" fill="white"/>
+                    <circle r="8" cx="16%" cy="13%" fill="white"/>
+                    <circle r="8" cx="24%" cy="13%" fill="white"/>
+                  </svg>
+                </div>
                 <img src="img\sedona.png" width="358" heigth="578" alt="Шаблон Sedona">
-                <h3>Sedona</h3>
-                <p>Информационный сайт<br>для туристов</p>
-              </a>
-              <p><button class="button button-buy-sample" type="button">9900 Р</button></p>
+                <div class="sample-description">
+                  <h3>Sedona</h3>
+                  <p>Информационный сайт<br>для туристов</p>
+                  <p><button class="button button-buy-sample" type="button">9900 Р</button></p>
+                </div>
+                
             </li>
+
             <li class="item-sample">
-              <a href="blank.html">
-                <img src="img\pink.png" width="358" heigth="578" alt="Шаблон Pink">
+              <div class="sample-header">
+                <svg>
+                  <circle r="8" cx="8%" cy="13%" fill="white"/>
+                  <circle r="8" cx="16%" cy="13%" fill="white"/>
+                  <circle r="8" cx="24%" cy="13%" fill="white"/>
+                </svg>
+              </div>
+              <div class="sample-description">
                 <h3>Pink App</h3>
                 <p>Продуктовый лендинг<br>приложения для iOS и Android</p>
-              </a>
-              <p><button class="button button-buy-sample" type="button">9900 Р</button></p>
+                <p><button class="button button-buy-sample" type="button">9900 Р</button></p>
+              </div>
+              <img src="img\pink.png" width="358" heigth="578" alt="Шаблон Pink">
             </li>
+
             <li class="item-sample">
-              <a href="blank.html">
-                <img src="img\borodinski.png" width="358" heigth="578" alt="Шаблон Borodinski">
+              <div class="sample-header">
+                <svg>
+                  <circle r="8" cx="8%" cy="13%" fill="white"/>
+                  <circle r="8" cx="16%" cy="13%" fill="white"/>
+                  <circle r="8" cx="24%" cy="13%" fill="white"/>
+                </svg>
+              </div>
+              <div class="sample-description">
                 <h3>Borodinski</h3>
                 <p>Сайт салона красоты.<br>Для мужчин, да.</p>
-              </a>
-              <p><button class="button button-buy-sample" type="button">9900 Р</button></p>
+                <p><button class="button button-buy-sample" type="button">9900 Р</button></p>
+              </div>
+              <img src="img\borodinski.png" width="358" heigth="578" alt="Шаблон Borodinski">
             </li>
+
             <li class="item-sample">
-              <a href="blank.html">
-                <img src="img\mishka.png" width="358" heigth="578" alt="Шаблон Mishki">
+              <div class="sample-header">
+                <svg>
+                  <circle r="8" cx="8%" cy="13%" fill="white"/>
+                  <circle r="8" cx="16%" cy="13%" fill="white"/>
+                  <circle r="8" cx="24%" cy="13%" fill="white"/>
+                </svg>
+              </div>
+              <div class="sample-description">
                 <h3>Mishka</h3>
                 <p>Интернет-магазин<br>вязаных игрушек</p>
-              </a>
-              <p><button class="button button-buy-sample" type="button">9900 Р</button></p>
+                <p><button class="button button-buy-sample" type="button">9900 Р</button></p>
+              </div>
+              <img src="img\mishka.png" width="358" heigth="578" alt="Шаблон Mishki">
             </li>
+
             <li class="item-sample">
-              <a href="blank.html">
-                <img src="img\aplus.png" width="358" heigth="578" alt="Шаблон A+">
+              <div class="sample-header">
+                <svg>
+                  <circle r="8" cx="8%" cy="13%" fill="white"/>
+                  <circle r="8" cx="16%" cy="13%" fill="white"/>
+                  <circle r="8" cx="24%" cy="13%" fill="white"/>
+                </svg>
+              </div>
+              <div class="sample-description">
                 <h3>A+</h3>
                 <p>Лендинг курсов повышения<br> квалификации</p>
-              </a>
-              <p><button class="button button-buy-sample" type="button">9900 Р</button></p>
+                <p><button class="button button-buy-sample" type="button">9900 Р</button></p>
+             </div>
+              <img src="img\aplus.png" width="358" heigth="578" alt="Шаблон A+">
             </li>
+
             <li class="item-sample">
-              <a href="blank.html">
-                <img src="img\kvast.png" width="358" heigth="578" alt="Шаблон Кваст">
+              <div class="sample-header">
+                <svg>
+                  <circle r="8" cx="8%" cy="13%" fill="white"/>
+                  <circle r="8" cx="16%" cy="13%" fill="white"/>
+                  <circle r="8" cx="24%" cy="13%" fill="white"/>
+                </svg>
+              </div>
+              <div class="sample-description">
                 <h3>Кваст</h3>
                 <p>Промо-сайт производителя<br>крафтового кваса</p>
-              </a>
-              <p><button class="button button-buy-sample" type="button">9900 Р</button></p>
+                <p><button class="button button-buy-sample" type="button">9900 Р</button></p>
+              </div>
+              <img src="img\kvast.png" width="358" heigth="578" alt="Шаблон Кваст">
             </li>
           </ul>
 
