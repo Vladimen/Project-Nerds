@@ -61,7 +61,7 @@ img {
 /* Header */
 
 .main-header {
-  padding-top: 49px;
+  padding-top: ;
   background-color: var(--basic-light-grey);
 }
 
@@ -435,7 +435,7 @@ img {
 }
 
 .footer-map-catalog {
-  margin-top: 56px;
+  margin-top: 19px;
 }
 
 .contacts-list {
@@ -506,6 +506,7 @@ img {
   margin: 0;
   padding:0;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-right: 139px;
 }
@@ -672,7 +673,7 @@ img {
   border-radius: 50%;
   background-color: #4d4d4d;
   left:-27px;
-  top: 4.5px;
+  top: 5px;
   background-size: 100%;
   }
 
@@ -871,7 +872,7 @@ background: url(../img/icon-down.svg) no-repeat;
 }
 
 .item-sample:hover .sample-header {
-  opacity: 0.2;
+  opacity: 1;
 }
 
 .sample-header {
@@ -881,6 +882,7 @@ background: url(../img/icon-down.svg) no-repeat;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   align-items: center;
+  opacity: 0.2;
 }
 
 .sample-description {
@@ -914,6 +916,7 @@ background: url(../img/icon-down.svg) no-repeat;
 
 .list-button-pages {
   display:flex;
+  flex-wrap: wrap;
   margin-top: 38px;
   margin-right:11px;
   padding: 0;
@@ -923,6 +926,7 @@ background: url(../img/icon-down.svg) no-repeat;
 
 .item-button-pages {
   margin-right: 11px;
+  margin-bottom: 37px;
   }
 
 .list-button-pages a {
